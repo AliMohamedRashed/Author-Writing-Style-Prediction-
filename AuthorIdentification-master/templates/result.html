@@ -1,0 +1,40 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Authorship identification | By Author Name</title>
+  <meta name="description" content="identifing an author based on a text throw the model.">
+ <link rel="stylesheet"  href="{%static 'css/style3.css'%}"  >
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Author Found </h1>
+    </header>
+
+  <nav>
+      <a href="{% url 'index'%}">Home</a>
+      <a href="{% url 'about'%}">About us</a>
+    </nav>
+    <main>
+      <section>
+        <h2>Text :</h2>
+        <p> {{ article }}</p>
+        <h3>Author :
+          <a href="#">{{ author }}</a>
+        </h3>
+      </section>
+    </main>
+    <form >
+       {% csrf_token %}
+      <button onclick="onchange="window.location.href = "{% url 'index' %}" ">Find Another Author</button>
+    </form>
+    <footer>
+      <p>Main st. Mase Elgdeda. Cairo - Copyright 2021</p>
+    </footer>
+  </div>
+</body>
+</html>

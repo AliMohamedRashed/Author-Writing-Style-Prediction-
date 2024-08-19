@@ -1,0 +1,110 @@
+body {
+  background-color: rgb(37, 34, 34);
+  background-image: url(images/Trumpwallpapers\ -\ Book\ Wallpapers\ \(1\).jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+header {
+  height: 114px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.137);
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+main {
+  height: 400px;
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-bottom: 400px;
+}
+
+footer {
+  background-color: rgba(7, 7, 7, 0.719);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+header h1 {
+  font-size: 65px;;
+  color: white;
+  -webkit-text-stroke: 0.1vw wheat;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+main p {
+  font-size: 18px;
+  color: blanchedalmond;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form textarea {
+  width: 100%;
+  height: 70%;
+  border: solid;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.623);
+  color: antiquewhite;
+  border-radius: 4px;
+  border-color: wheat;
+  box-sizing: border-box;
+}
+
+main h1 {
+  font-size: 50px;;
+  color: bisque;
+  -webkit-text-stroke: 0.1vw wheat;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main h1::before {
+  font-size: 50px;;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form button {
+  height: 50px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.411);
+  border-color: wheat;
+  color: antiquewhite;
+  border-radius: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  -webkit-text-stroke: 0.1vw wheat;
+  font-size: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+footer p {
+  font-size: 10px;
+  text-align: center;
+  color: rgb(182, 182, 182);
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background: gray;
+  border-radius: 6px;
+}

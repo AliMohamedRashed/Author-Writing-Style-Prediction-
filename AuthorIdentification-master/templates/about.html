@@ -1,0 +1,73 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Authorship identification | By Author Name</title>
+  <meta name="description" content="identifing an author based on a text throw the model.">
+  <link rel="stylesheet"  href="{%static 'css/style2.css'%}"  >
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>About us </h1>
+    </header>
+
+    <nav>
+      <a href="{% url 'index'%}">Home</a>
+      <a href="{% url 'about'%}">About us</a>
+    </nav>
+
+    <main>
+      <div class="container1">
+
+        <div class="gallery">
+          <img src="{%static 'css/images/Ali Muhammad.jpeg'%}">
+            <div class="desc">
+              <h2> Ali Mohammad </h2>
+              <h3> Resarcher </h3>
+            </div>
+        </div>
+        <div class="gallery">
+           <img src="{%static 'css/images/Ahmed Hossam.jpeg'%}">
+            <div class="desc">
+              <h2> Ahmed Hossam </h2>
+              <h3> Back End Web Developer </h3>
+            </div>
+        </div>
+        <div class="gallery">
+           <img src="{%static 'css/images/Ahmed Abd-ElHakam.jpeg'%}">
+            <div class="desc">
+              <h2> Ahmed Abd-ElHakam </h2>
+              <h3> Front End Web Developer </h3>
+            </div>
+        </div>
+        <div class="gallery">
+             <img src="{%static 'css/images/Ahmed Gamal.jpeg'%}">
+            <div class="desc">
+              <h2> Ahmed Gamal </h2>
+              <h3> Back End Web Developer </h3>
+            </div>
+        </div>
+        <div class="spec">
+            <img src="{%static 'css/images/Omar Hassan.jpeg'%}">
+            <div class="desc">
+              <h2> Omar Hassan </h2>
+              <h3> Front End Web Developer</h3>
+            </div>
+        </div>
+
+
+
+      </div>
+    </main>
+
+    <footer>
+      <p>Main st. Mase Elgdeda. Cairo - Copyright 2021</p>
+    </footer>
+  </div>
+
+</body>
+</html>

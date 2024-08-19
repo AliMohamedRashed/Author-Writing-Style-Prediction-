@@ -1,0 +1,122 @@
+body {
+  background-color: rgb(37, 34, 34);
+  background-image: url(images/Trumpwallpapers\ -\ Book\ Wallpapers\ \(1\).jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+
+header {
+  height: 114px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+header h1 {
+  font-size: 65px;;
+  color: white;
+  -webkit-text-stroke: 0.1vw wheat;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.137);
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  -webkit-text-stroke: 0.1vw wheat;
+  font-size: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+main {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+main section {
+  height: 100%;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.651);
+}
+
+main h2 {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  color: white;
+  -webkit-text-stroke: 0.05vw wheat;
+}
+
+main p {
+  
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  -webkit-text-stroke: 0.01vw wheat;
+  padding-bottom: 14px;
+}
+
+main h3 {
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  color: white;
+  -webkit-text-stroke: 0.05vw wheat;
+}
+main a{
+  color: white;
+  -webkit-text-stroke: 0.01vw wheat;
+}
+form{
+  padding-top: 100px;
+  padding-left:401px;
+  padding-bottom: 120px;
+  
+}
+form button{
+  height: 50px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.411);
+  border-color: wheat;
+  color: antiquewhite;
+  border-radius: 20px;
+}
+footer {
+  background-color: rgb(7, 7, 7);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer p {
+  font-size: 10px;
+  text-align: center;
+  color: rgb(182, 182, 182);
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background: gray;
+  border-radius: 6px;
+}

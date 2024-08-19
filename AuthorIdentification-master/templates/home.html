@@ -1,0 +1,49 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Authorship identification | By Author Name</title>
+  <meta name="description" content="identifing an author based on a text throw the model.">
+  <link rel="stylesheet" href="{%static 'css/style.css'%}">
+</head>
+<body>
+    <a style="color: white;
+    text-decoration: none;
+    font-size: xx-large;" href="#">Welcom : {{ user.username }}</a>
+  <div class="container">
+    <header>
+      <h1>Authorship Identification</h1>
+    </header>
+       <nav>
+      <a href="{% url 'index'%}">Home</a>
+      <a href="{% url 'about'%}">About us</a>
+    </nav>
+
+    <main>
+      <h1>Let's find your Author</h1>
+      <p>Enter a text below in the text area to predict your author by applying machine learing and deep learning techniques.</p>
+      <br>
+      <br>
+      <br>
+      <form  method="post">
+        {% csrf_token %}
+        <textarea name="text" cols="30" rows="10" placeholder="Enter text..."></textarea>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button>Search</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>Main st. Mase Elgdeda. Cairo - Copyright 2021</p>
+    </footer>
+  </div>
+</body>
+</html>
+
